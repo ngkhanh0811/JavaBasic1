@@ -17,7 +17,7 @@ public class TestStudent {
         System.out.println("Class name of student is: "+cs1.getClassName());
         System.out.println("Id of student is:"+cs1.getClassId());
         System.out.println("DOB of student is: "+s1.getDob());
-        System.out.println(s1.getStatus());
+        System.out.println("Learning status is: "+s1.getStatus());
         System.out.println("Roll No of students is: "+s1.getRollNo());
     }
 }

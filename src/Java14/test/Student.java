@@ -45,20 +45,16 @@ public class Student {
         return ClassCurrent;
     }
 
-    void setClassCurrent(ClassStuff Class){
-        this.ClassCurrent=Class;
+    public void setClassCurrent(ClassStuff classCurrent) {
+        ClassCurrent = classCurrent;
     }
 
     public int getStatus(){
         return status;
     }
 
-    void setStatus(int status){
-        this.status=status;
-    }
-
-    void setClass(ClassStuff Class){
-        this.ClassCurrent=Class;
+    public void setStatus(int status) {
+        this.status = status;
     }
 
     public String toString(){
