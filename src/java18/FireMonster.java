@@ -6,5 +6,12 @@ Time: 11:46 PM
 
 ProjectName: JavaBasic1*/
 
-public class FireMonster {
+public class FireMonster extends Monster {
+    public FireMonster(String name){
+        super(name);
+    }
+
+    public String attack(){
+        return "Attack with Fire!";
+    }
 }

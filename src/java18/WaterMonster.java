@@ -1,10 +1,17 @@
 package java18;/*Welcome to my show !
 
 @author: NgKhanh
-Date: 4/13/2022
-Time: 11:46 PM
+Date: 4/14/2022
+Time: 12:08 AM
 
 ProjectName: JavaBasic1*/
 
-public class WaterMonster {
+public class WaterMonster extends Monster {
+    public WaterMonster(String name){
+        super(name);
+    }
+
+    public String attack(){
+        return "Attack with Water!";
+    }
 }
