@@ -13,7 +13,7 @@ public class TestFlight {
         System.out.println("Destination of Flight is: " + f1.getDestination());
         System.out.println("Number of Flight is: " + f1.getNumber());
 
-        Flight f2 = new Flight(1,"American");
+        Flight f2 = new Flight(857,"Toronto");
         f2.display();
         System.out.println("Destination of Flight is: " + f2.getDestination());
         System.out.println("Number of Flight is: " + f2.getNumber());
